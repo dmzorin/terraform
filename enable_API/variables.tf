@@ -1,11 +1,5 @@
-variable "provider_version" {
-  description = "Google provider version"
-  type = string
-  default = "4.57.0"
-}
-
 variable "project_id" {
-  description = "Project_id"
+  description = "Project id"
   type = string
   default = "gs-pca"
 }
